@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+}
+.game-container{
+  width:500px;
+  height:700px;
+  position:absolute;
+}
+.sky{
+  background-color:	#ADD8E6;
+  width:500px;
+  height:580px;
+  position:absolute;
+}
+.ground{
+background-color: green;
+width:500px;
+height:150px;
+position:absolute;
+top:580px;
+}
+.bird{
+  background-color:#ADD8E6;
+  background-image: url('flap.png');
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position:absolute;
+  height:60px;
+  width:45px;
+}
+.obstacle{
+  background:url('pole.png');
+  background-position: cover;
+  background-size:100% 100%;
+  width:60px;
+  height:300px;
+  position:absolute;
+}
